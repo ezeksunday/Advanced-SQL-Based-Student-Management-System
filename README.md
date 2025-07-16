@@ -16,3 +16,7 @@ These upgrades aim to improve usability for non-technical staff, automating impo
 ## PROBLEM STATEMENT:
 The previous implementation provided secure access control, but the system lacked usability features for non-technical users and support for new institutional functions like the school store. There is a need for views, stored procedures, and functions to improve efficiency and functionality.  
 
+## SOLUTION OVERVIEW:
+This phase of the project provides advanced features to support ease of use and new operational demands. **Uploaded as "Code II. sql"**
+
+
