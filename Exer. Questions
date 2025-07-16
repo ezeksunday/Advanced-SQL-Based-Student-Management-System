@@ -1,0 +1,50 @@
+Following the successful implementation of the initial student management database, Greenfield Academy's IT department has been tasked with further improving the system's functionality and efficiency.  
+The school administration has requested new features to streamline data access, automate routine tasks, and support the newly established school store.
+
+
+
+### Key objectives for this phase include:
+
+- Simplifying data access for non-technical staff through the use of views.
+- Automating student registration processes with stored procedures.
+- Supporting the school store's operations with custom functions for pricing calculations.  
+
+### To achieve these goals, the database administrator will work on:
+
+- Creating Views: To provide easy-to-understand snapshots of student data for administrative staff, including a calculated field for age categories.
+- Implementing Stored Procedures: To streamline the process of adding new students to the database, ensuring consistent data entry and returning useful information.
+- Developing User-Defined Functions: To support the school store's operations by creating a flexible discount calculation function.  
+These enhancements will make the student management system more user-friendly for staff members with varying levels of technical expertise, while also expanding its capabilities to support new school initiatives like the store.
+
+
+
+Lesson 1: Creating Views
+
+1. Use the student_management database from the previous module.
+
+2. Create a view named student_overview that shows the ID, name, and grade columns from the student's table.
+
+3. Query the student_overview view to verify it displays the correct data.
+
+4. Modify the view to include a calculated field that shows age categorised as 'Minor' if the age is less than 18, and 'Adult' otherwise.
+
+
+
+Lesson 2: Stored Procedures
+
+1. Create a stored procedure named add_student that takes the name, age, and grade as parameters and inserts a new record into the students table.
+
+2. Run the stored procedure to add a new student.
+
+3. Modify the stored procedure to return the id of the newly added student after insertion.
+
+4. Verify that the stored procedure works as expected.
+
+
+
+Lesson 3: User-Defined Functions
+
+1. Create a user-defined function named calculate_discount that takes a price and a discount percentage as input and returns the discounted price.
+
+2. Write a query to test the function by calculating the discounted price for an item with a price of 100 and a discount of 15%.
+
